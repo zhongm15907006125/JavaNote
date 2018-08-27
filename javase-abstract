@@ -1,3 +1,13 @@
 //抽象类是一个不完整的类，不能被实例化，只能子类继承使用。
 //抽象类可以没有抽象成员变量或者抽象成员方法，但是拥有二者其一的一定要是抽象类
 //抽象类的子类必须继承父类的抽象方法，否而声明自身为抽象类
+
+//迭代器遍历ArrayList集合
+Interator<String> its=list.iterator();
+if(its.hasNext())
+{
+    System.out.println(its.next())
+}
+//将集合变为数组的方式
+String[] St=new String[list.size()];
+list.ToArray(st);
